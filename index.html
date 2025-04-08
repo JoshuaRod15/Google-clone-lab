@@ -9,11 +9,28 @@
     <title>Google Clone</title>
     <!-- Iconos de google -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=block">
     <!-- Importar la hoja de estilos -->
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <!-- Tu código HTML va aquí -->
+    <section class="principal">
+        <div class="textDiv"><h3 class="textGoogle">Google</h3></div>
+        <div class="searchBar">
+        <span class="material-symbols-outlined searchIcon">
+            search
+            </span>
+        <input type="text" name="" id="barSearch" class="textSearch" placeholder="Busca en Google o escribe una URL">
+        <span class="material-symbols-outlined">
+            mic
+            </span>
+        </div>
+        <div class="divBotones">
+            <button class="botones" id="searchButton">Buscar con Google</button>
+            <button class="botones" id="lucyButton">Voy a tener suerte</button>
+        </div>
+    </section>
     <!-- Importar el script -->
     <script src="script.js"></script>
 </body>

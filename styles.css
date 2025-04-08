@@ -1,0 +1,65 @@
+
+body{
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.principal{
+    margin: auto;
+    width: 70%;
+}
+
+.textDiv{
+    margin: 0;
+}
+.textGoogle{
+    font-size: 80px;
+    margin: 2rem;
+}
+
+.searchBar{
+    margin: auto;
+    width: 70%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 100px;
+}
+.searchBar:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.textSearch{
+    width: 80%;
+    height: 95%;
+    outline: none;
+    border: 0;
+}
+
+.searchIcon{
+    padding: 3%;
+}
+
+.divBotones{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.botones{
+    height: 40%;
+    margin: 1rem;
+    width: 20%;
+    border: none;
+    border-radius: .25rem;
+}
+
+.botones:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
